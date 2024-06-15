@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | HealSpace BreathQuest</title>
+    <title>Unity WebGL Player | HealSpace BreathQuest WXR</title>
     <meta name="description" content="">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
@@ -24,20 +24,20 @@
         <button id="entervr" value="Enter VR" disabled>VR</button>
         <button id="enterar" value="Enter AR" disabled>AR</button>
         <div id="unity-webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export</a></div>
-        <div id="unity-build-title">HealSpace BreathQuest</div>
+        <div id="unity-build-title">HealSpace BreathQuest WXR</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/healspace-bqwgl.loader.js";
+      var loaderUrl = buildUrl + "/build-webgl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/healspace-bqwgl.data",
-        frameworkUrl: buildUrl + "/healspace-bqwgl.framework.js",
-        codeUrl: buildUrl + "/healspace-bqwgl.wasm",
+        dataUrl: buildUrl + "/build-webgl.data",
+        frameworkUrl: buildUrl + "/build-webgl.framework.js",
+        codeUrl: buildUrl + "/build-webgl.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "HealSpace BreathQuest",
-        productVersion: "1.0.0",
+        productName: "HealSpace BreathQuest WXR",
+        productVersion: "0.1",
       };
 
       var container = document.querySelector("#unity-container");
